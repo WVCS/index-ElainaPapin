@@ -1,3 +1,79 @@
 body {
-
+  background-color: #929487;
+  border: 15px solid #4D7EA8;
+  padding: 50px;
+  margin: 20px;
 }
+h2 {
+  color: white;
+  text-align: center;
+  border: solid black;
+  font-family: copperplate;
+  font-size: 75px;
+  border: solid black 25px; 
+}
+img {
+  border: solid #DCF763 100px;
+}
+img:hover {
+  border:pink dotted 57px;
+}
+iframe:hover {
+  border: solid yellow 15px;
+}
+p {
+  color: white;
+  font-size: 50px
+}
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+
+ol {
+  list-style: none;
+  counter-reset: my-awesome-counter;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  counter-increment: my-awesome-counter;
+  display: flex;
+  width: 50%;
+  font-size: 30px;
+  margin-bottom: 0.5rem;
+}
+ul li::before {
+  content: "0" counter(my-awesome-counter);
+  font-weight: bold;
+  font-size: 70px;
+  margin-right: 20px;
+  font-family: 'Abril Fatface', serif;
+  line-height: 1;
+}
+
+
+
+body {
+  padding: 1rem;
+  font-family: sans-serif;
+}
+ul {
+  font-size:70px;
+  list-style: none;
+  counter-reset: my-awesome-counter;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+table{
+  border: solid white;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+tr:hover {
+  background-color: orange;
+}
+tr:nth-child(even) {background-color: lightyellow}
