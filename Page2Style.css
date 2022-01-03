@@ -1,0 +1,14 @@
+body {
+  background-color: #D77A61;
+}
+h1 {
+  text-align: center;
+  color: #E4E0D4; 
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+img {
+  border: 12px solid #59A5D8;
+}
+p {
+  color: #2C4251;
+}
