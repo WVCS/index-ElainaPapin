@@ -1,6 +1,23 @@
 body {
   background-color: #D77A61;
 }
+#nav {
+  list-style-type: none;
+  width: 100%;
+  overflow: hidden;
+  Position: fixed; 
+  background-color: #2F97C1;
+  margin: 0;
+  top: 0;
+  left: 0;
+}
+
+li a {
+  display: block;
+  float: left;
+  padding: 15px;
+  color: #E4E0D4;
+}
 h1 {
   text-align: center;
   color: #E4E0D4; 
